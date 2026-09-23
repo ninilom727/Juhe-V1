@@ -9,6 +9,7 @@ from urllib.parse import urlparse  # --- 引入 URL 解析库 ---
 
 # --- 配置区 ---
 DEFAULT_URLS_TO_FETCH = [
+    "https://cdn04132025.gitlink.org.cn/api/v1/repos/leevi0321/null/raw/config.bin",
     "https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/tvapi_config_json",  
     "https://raw.githubusercontent.com/666zmy/MoonTV/refs/heads/main/config.json", 
     "https://raw.githubusercontent.com/hafrey1/LunaTV-config/main/LunaTV-config.txt",
