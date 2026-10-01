@@ -71,11 +71,6 @@
             "api": "https://api.wujinapi.me/api.php/provide/vod",
             "detail": "https://api.wujinapi.me"
         },
-        "api_20": {
-            "name": "TV-无尽资源",
-            "api": "https://api.wujinapi.net/api.php/provide/vod",
-            "detail": "https://api.wujinapi.net"
-        },
         "api_23": {
             "name": "TV-暴风资源",
             "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -216,6 +211,26 @@
             "name": "iqiyi资源",
             "detail": "https://www.iqiyizyapi.com"
         },
+        "feifan": {
+            "name": "非凡资源",
+            "api": "http://ffzy5.tv/api.php/provide/vod",
+            "detail": "http://ffzy5.tv"
+        },
+        "moduzy": {
+            "name": "魔都影视",
+            "api": "https://www.moduzy.com/api.php/provide/vod",
+            "detail": "https://www.moduzy.com"
+        },
+        "feifan1": {
+            "name": "非凡线路1",
+            "api": "http://ffzy1.tv/api.php/provide/vod",
+            "detail": "http://ffzy1.tv"
+        },
+        "ck": {
+            "name": "CK",
+            "api": "https://www.ckzy1.com/api.php/provide/vod",
+            "detail": "https://www.ckzy1.com"
+        },
         "iqiyizyapi.com": {
             "name": "🎬-爱奇艺-",
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -258,16 +273,6 @@
             "api": "https://caiji.kuaichezy.org/api.php/provide/vod",
             "detail": "https://caiji.kuaichezy.org"
         },
-        "hhzy2": {
-            "name": "豪华资源(代理)",
-            "api": "https://pz.v88.qzz.io/?url=https://hhzyapi.com/api.php/provide/vod",
-            "detail": "https://pz.v88.qzz.io"
-        },
-        "ruyi": {
-            "name": "如意资源(代理)",
-            "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
-            "detail": "https://pz.v88.qzz.io"
-        },
         "730acd683fc317fa1a584e5613e727f0": {
             "name": "2-非凡",
             "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
@@ -302,11 +307,6 @@
             "name": "12-量子",
             "api": "http://www.lzzy.tv/api.php/provide/vod/",
             "detail": "http://www.lzzy.tv"
-        },
-        "c175280641d5263f0d0d9cbfab0162c3": {
-            "name": "13-非凡",
-            "api": "http://ffzy5.tv/api.php/provide/vod/",
-            "detail": "http://ffzy5.tv"
         },
         "fb264ae3b34e829817f35b9b59ea9c36": {
             "name": "14-量子",
@@ -398,20 +398,15 @@
             "api": "https://360zy.tv/api.php/provide/vod/",
             "detail": "https://360zy.tv"
         },
-        "moduzy": {
-            "name": "魔都影视",
-            "api": "https://www.moduzy.com/api.php/provide/vod",
-            "detail": "https://www.moduzy.com"
+        "hhzy2": {
+            "name": "豪华资源(代理)",
+            "api": "https://pz.v88.qzz.io/?url=https://hhzyapi.com/api.php/provide/vod",
+            "detail": "https://pz.v88.qzz.io"
         },
-        "feifan1": {
-            "name": "非凡线路1",
-            "api": "http://ffzy1.tv/api.php/provide/vod",
-            "detail": "http://ffzy1.tv"
-        },
-        "ck": {
-            "name": "CK",
-            "api": "https://www.ckzy1.com/api.php/provide/vod",
-            "detail": "https://www.ckzy1.com"
+        "ruyi_2": {
+            "name": "如意资源(代理)",
+            "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
+            "detail": "https://pz.v88.qzz.io"
         },
         "无水印采集": {
             "name": "🐝┃纯净┃采集",
@@ -641,15 +636,6 @@
             "key": "api_19",
             "name": "TV-无尽资源",
             "api": "https://api.wujinapi.me/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "api_20",
-            "name": "TV-无尽资源",
-            "api": "https://api.wujinapi.net/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -908,6 +894,42 @@
             "filterable": 1
         },
         {
+            "key": "feifan",
+            "name": "非凡资源",
+            "api": "http://ffzy5.tv/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "moduzy",
+            "name": "魔都影视",
+            "api": "https://www.moduzy.com/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "feifan1",
+            "name": "非凡线路1",
+            "api": "http://ffzy1.tv/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "ck",
+            "name": "CK",
+            "api": "https://www.ckzy1.com/api.php/provide/vod",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "iqiyizyapi.com",
             "name": "🎬-爱奇艺-",
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -980,24 +1002,6 @@
             "filterable": 1
         },
         {
-            "key": "hhzy2",
-            "name": "豪华资源(代理)",
-            "api": "https://pz.v88.qzz.io/?url=https://hhzyapi.com/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "ruyi",
-            "name": "如意资源(代理)",
-            "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "730acd683fc317fa1a584e5613e727f0",
             "name": "2-非凡",
             "api": "http://cj.ffzyapi.com//api.php/provide/vod/",
@@ -1055,15 +1059,6 @@
             "key": "d2fee2579b5b9f122d45709ce08226fb",
             "name": "12-量子",
             "api": "http://www.lzzy.tv/api.php/provide/vod/",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "c175280641d5263f0d0d9cbfab0162c3",
-            "name": "13-非凡",
-            "api": "http://ffzy5.tv/api.php/provide/vod/",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -1232,27 +1227,18 @@
             "filterable": 1
         },
         {
-            "key": "moduzy",
-            "name": "魔都影视",
-            "api": "https://www.moduzy.com/api.php/provide/vod",
+            "key": "hhzy2",
+            "name": "豪华资源(代理)",
+            "api": "https://pz.v88.qzz.io/?url=https://hhzyapi.com/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "feifan1",
-            "name": "非凡线路1",
-            "api": "http://ffzy1.tv/api.php/provide/vod",
-            "type": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "ck",
-            "name": "CK",
-            "api": "https://www.ckzy1.com/api.php/provide/vod",
+            "key": "ruyi_2",
+            "name": "如意资源(代理)",
+            "api": "https://pz.v88.qzz.io/?url=https://cj.rycjapi.com/api.php/provide/vod",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
