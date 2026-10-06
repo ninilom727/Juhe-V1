@@ -381,6 +381,11 @@
             "api": "https://www.haohuazy.com/api.php/provide/vod/",
             "detail": "https://www.haohuazy.com"
         },
+        "fbfa5eed414e1f6137f2496a68005ef5": {
+            "name": "43-HG",
+            "api": "https://hong.hgyx.vip/api.php/provide/vod/",
+            "detail": "https://hong.hgyx.vip"
+        },
         "9d8b0f25e739dc88f3a9aa3ccd54b1a5": {
             "name": "50-淘片",
             "api": "https://taopianapi.com/cjapi/mc/vod/json.html",
@@ -1202,6 +1207,15 @@
             "key": "e743537b66dc4d8932f3a3800fdb7477",
             "name": "37-豪华",
             "api": "https://www.haohuazy.com/api.php/provide/vod/",
+            "type": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "fbfa5eed414e1f6137f2496a68005ef5",
+            "name": "43-HG",
+            "api": "https://hong.hgyx.vip/api.php/provide/vod/",
             "type": 1,
             "searchable": 1,
             "quickSearch": 1,
